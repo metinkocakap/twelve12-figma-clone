@@ -1,0 +1,179 @@
+
+@font-face {
+    font-family: myFirstFont;
+    src: url("assets/fonts/nagoda.woff");
+}
+
+body{
+    padding: 0;
+}
+.fonts{
+    font-family: myFirstFont;
+}
+.fontsnav{
+    font-family: myFirstFont;
+    font-size: 18px;
+}
+.your{
+    font-size: 108px;
+    line-height: 106px;
+  
+}
+.ready-text{
+    font-size: 36px;
+    line-height: 46px;
+}
+.header-bg{
+    background:  linear-gradient(90deg, #031E71 0 72%, #ffffff 28% );
+   }
+ .connect-text{
+     font-size: 28px;
+     line-height: 36px;
+ }
+ .boderg{
+     border-bottom:7px solid #FDC609;
+    margin: 0;
+    padding: 0;
+ }
+ .borders{
+     border-right: 1px solid #FDC609;
+     margin: 0;
+     padding: 0;
+ }
+ .caps-text{
+    font-size: 90px;
+    line-height: 88px;
+ }
+ .slider-text{
+    font-size: 72px;
+    line-height: 84px;
+ }
+ /* .virgül{
+    background-image: url(assets/img/“.svg);
+    background-repeat: no-repeat;
+    background-size: 90px;
+    
+    
+    
+} */
+
+.right-band{
+    z-index: -1;
+    right: 0px;
+    top: 20%;
+    height: 200px;
+}
+.top-band{
+    position: relative;
+    top: -50px;
+    left: 35%;
+}
+.bottom-band{
+    position: relative;
+    bottom: 0px;
+    right: 30%;
+}
+.find{
+    position: relative;
+    top: -60px;
+    left: 7%;
+
+}
+.deneme2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.bgop{
+    background-image: url(assets/img/Frame.png);
+}
+@media only screen and (max-width: 992px) {
+    .find{
+        height: 700px;
+    }
+}
+
+   @media only screen and (max-width: 768px) {
+    #cnt {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #deneme{
+      background-color: #031E71;
+      
+    }
+    #your{
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .caps-text{
+        font-size: 40px;
+        line-height: 70px;
+    }
+    .slider-text{
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .ready-text{
+        font-size: 20px;
+    }
+    .appsize{
+        height: 30px;
+        width: 150px;
+    }
+    .find{
+        height: 600px;
+        left: 0%;
+    }
+
+  }
+
+  @media only screen and (max-width: 576px) {
+
+    .slider-text{
+        font-size: 40px;
+        line-height: 70px;
+    }
+    #your{
+        font-size: 40px;
+        line-height: 70px;
+      
+    }
+    
+    #p-btn{
+        padding: 30px;
+    }
+    .find{
+        height: 300px;
+        top: 0;
+    }
+
+}
+
+  @media only screen and (max-width: 1200px) {
+    #deneme{
+      background-color: #031E71;
+    }
+
+    .right-band{
+        height: 150px;
+    }
+    .top-band{
+        height: 200px;
+        display: none;
+
+    }
+
+  }
+ 
+.p-btn{
+    padding: 50px;
+}
+  .photo{
+    position: absolute;
+    height: 710px;
+    width: 434px;
+    right: 5%;
+    top: -95px;
+}
